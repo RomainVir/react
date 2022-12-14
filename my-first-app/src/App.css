@@ -17,3 +17,9 @@ padding: 10px;
   border: none;
   cursor: pointer;
  }
+
+ .header span{
+  width: 200px;
+  padding: 10px;
+
+ }

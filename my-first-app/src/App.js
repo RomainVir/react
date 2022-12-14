@@ -32,7 +32,8 @@ function App() {
     <div className="App">
     <div className="header">
       <Header 
-      text="Search your bike"
+      logo="https://cdn.shopify.com/s/files/1/0571/9919/8395/products/009_f0214598-aef2-423a-9912-3a7d4fe76e54_1392x928.jpg?v=1649251481"
+      input="search"
       />
     </div>
   <div className="velos">
