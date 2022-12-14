@@ -1,3 +1,19 @@
-.App {
+.velos {
+  display: flex;
   text-align: center;
-}
+ }
+
+ .velos img{
+
+width: 200px;
+padding: 10px;
+ }
+
+ .cards button{
+  border-radius: 4px;
+  background-color: aquamarine;
+  padding: 8px;
+  margin: 14px;
+  border: none;
+  cursor: pointer;
+ }

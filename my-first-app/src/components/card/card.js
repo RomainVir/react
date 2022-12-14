@@ -1,17 +1,13 @@
-import Img from '../../imagenes/canyon3.jpeg'
-export default function card() {
+export default function card({img, title, price, buy, details}) {
   return (
 <div className ="cards">
-<img src={Img}></img>
-      <h3>Grand Canyon 5 WMN</h3>
-      <h4>1459 €</h4>
-      <span>★</span>
-         <span>★</span>
-         <span>★</span>
-         <span>★</span>
-         <span>★</span>
-     
+      <img
+       src={img} alt="velo"/>
+      <h3>{title}</h3>
+      <h4>{price}</h4> 
+      <button>{buy}</button>
+      <button>{details}</button>
        </div>
-  );
-}
+  )
+};
 
