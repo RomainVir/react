@@ -1,4 +1,4 @@
-export function Header({ logo, input, basket }) {
+export function Header({logo}) {
     return (
       <header className="container header-inner">
         <img src={logo}/>

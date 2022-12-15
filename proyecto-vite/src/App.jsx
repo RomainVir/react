@@ -1,4 +1,5 @@
 import './App.css'
+import { Footer } from './components/Footer/Footer'
 import { Header} from './components/Header/Header'
 import { NavBar } from './components/Header/Navbar'
 
@@ -9,12 +10,15 @@ function App() {
     <div className="App">
     <div className="header">
       <Header 
-      logo="../"
+      logo="./assets/logo.png"
       input="search"
       />
     </div>
     <div className="menu">
       <NavBar menuItems={menu} />
+  </div>
+  <div className='footer'>
+    <Footer />
   </div>
   </div>
 )}
