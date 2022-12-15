@@ -112,3 +112,52 @@ button {
 margin-bottom: 16px;   
 padding: 8px;
 }
+
+/*Velos */
+.velos {
+  display: flex;
+  text-align: center;
+ }
+
+ .velos img{
+width: 400px;
+padding: 10px;
+margin: 4px;
+ }
+
+ .cards button{
+  background-color: #526e3cab;
+    border-radius: 25px;
+    border: none;
+    margin: 24px;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    align-items: center;
+    margin-left: 0px;
+    transition: all 0.5s;
+    cursor: pointer;
+  
+ }
+
+ .cards button:hover {
+  background-color: rgba(255, 77, 0, 0.591);
+  }
+  
+  .boutons {
+      display: flex;
+      justify-content: right;
+  }
+
+  .cards {
+        
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0px;
+    transition: all 0.5s;
+    cursor: pointer;
+    padding: 8px;
+    margin-bottom: 100px;
+}
+.cards:hover {
+    color: black;
+    background-color: transparent;
+}
