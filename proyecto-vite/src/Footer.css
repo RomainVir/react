@@ -1,0 +1,20 @@
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-footer {
+    display: flex;
+}
+
+.help1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.follow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+

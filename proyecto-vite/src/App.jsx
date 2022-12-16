@@ -1,9 +1,11 @@
 import './App.css'
+import './Footer.css'
+import './Header.css'
 import { Footer } from './components/Footer/Footer'
 import { Header} from './components/Header/Header'
 import { NavBar } from './components/Header/Navbar'
 import { Home } from './components/Home/Home'
-
+import { Carroussel } from './components/Home/Carroussel'
 
 
 const menu = ["Home", "All products", "About us", "Discounts", "Contact", "Login"]
@@ -35,14 +37,19 @@ function App() {
     <div className="App">
     <div className="header">
       <Header 
-      logo="./assets/logo.png"
+      logo="../src/assets/logo.png"
       input="search"
       />
     </div>
+
     <div className="menu">
       <NavBar menuItems={menu} />
   </div>
 
+<div className='carroussel'>
+<Carroussel />
+
+</div>
   <div className='velos'>
   {products.map(({img, title, price, buy, details}) => (
       <Home 
@@ -53,7 +60,6 @@ function App() {
       details={details}
       /> 
    ))};
-
       </div>
      
   <div className='footer'>

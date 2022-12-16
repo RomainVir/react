@@ -5,41 +5,32 @@ return(
       <div className="services">
       
         <div className="payment">
-            <img src="./assets/pago.png" alt="payment" width="40" />
+            <img src="../src/assets/pago.png" alt="payment" width="40" />
         <h5>Secure payment</h5> </div>
         <div className="delivery">
-             <img src="/HTML/Logos/envio.png" alt="delivery" width="40"/>
+             <img src="../src/assets/envio.png" alt="delivery" width="40"/>
        <h5>Free delivery</h5></div>
         
-        <div className="guarantee">
-            <img src="/HTML/Logos/pago.png" alt="Guarantee" width="40"/>
-        <h5>Guarantee</h5></div>
-    
-        <div className="discount">
-            <img src="/HTML/Logos/ofertas.png" alt="Discounts" width="40"/>
+       <div className="discount">
+            <img src="../src/assets/ofertas.png" alt="discount" width="40" />
         <h5>Discounts</h5></div>
-      </div>
-      
-      
-     <div classNameName="container-footer">
-      
-      <div className="help1">
-        <ul>
-        <div><li>Help center</li></div>
-        <div><li>Customer service</li></div>
-        <div><li>Contact us</li></div>
-        <div><li>Call center</li></div>
     
-       </ul>
+        <div className="guarantee">
+            <img src="../src/assets/check.png" alt="Guarantee" width="40" />
+        <h5>Guarantee</h5></div>
+        </div>
+      
+        <div classNameName="container-footer">
+      
+        <div className="help1">
+        
+        <div><h5>Help center</h5></div>
+        <div><h5>Customer service</h5></div>
+        <div><h5>Contact us</h5></div>
+        <div><h5>Call center</h5></div>
+      
       </div>
-      <div class="help2">
-        <ul>
-        <div><li>Privacy</li></div>
-        <div><li>Terms and conditions</li></div>
-        <div><li>Reviews</li></div>
-        <div><li>Privacy and cookies</li></div>
-        </ul>
-      </div>
+      
       
 
       <div class="subscribe">
@@ -52,10 +43,21 @@ return(
             <label for="button">I accept the terms and conditions</label>
             
             <input type="radio" value="OK"/>
-            <input class="sub-bouton" type="button" value="Subscribe" type="submit"/>
+            <input class="sub-bouton" type="button" value="Subscribe"/>
             
           </form>
         </div>
+        <div class="follow">
+      
+      <a class="facebook" href="https://www.facebook.com" target="_blank">
+        <img src="../src/assets/facebook.png" alt="facebook" width="50" /></a>
+        <a class="insta" href="https://www.instagram.com" target="_blank">
+        <img src="../src/assets/insta.png" alt="instagram" width="50"/></a>
+        <a class="youtube" href="https://www.youtube.com" target="_blank">
+        <img src="../src/assets/youtube.png" alt="youtube" width="50"/></a>
+       
+   </div>
+  
         </div>
         </div>
     

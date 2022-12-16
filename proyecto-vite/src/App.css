@@ -5,117 +5,12 @@ body {
   background-color: white; 
   
 }
-/*header */
-header {
-  background-color: white;
-  height: 140px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-input.search {
-  width: 400px;
-  font-family: 'Manrope', sans-serif;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: solid 1px black;
-}
 
-button {
-  height: 30px;
-}
-
-.navbar-nav a { 
-  display: block;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  font-family: 'Manrope', sans-serif;
-  padding: 16px;
-  transition: all 0.5s;
-}
-.menu ul li  {
-  display:inline-block;  
-  justify-content: right;
-  cursor: pointer;
-  margin: 10px;
-  }
-
-  
-  ul {
-      margin: 0px;
-  }
-
-  .container-menus {
-      background-color: white;
-      border-top: solid 1px black;
-  }
-  .container-menus nav ul li a {
-      display: block;
-      text-decoration: none;
-      color: rgb(0, 0, 0);
-      font-family: 'Manrope', sans-serif;
-      padding: 16px;
-      transition: all 0.5s;
-    
-  }
-  .menu ul li a:focus, .menu ul li a:hover {
-      
-      text-decoration : none;
-      padding-bottom: 2px;
- 
-          border-bottom : 2px solid #468b71e2
-      
-  }
-  .header-inner {
-      display: flex;
-      justify-content: space-between;
-
-  }
-
-  /*footer */
-  .services {
-    display: flex;
-    justify-content: space-between;
-}
-
-.help1 ul{
-  display: inline-block;  
-  cursor: pointer;
-  margin: 10px;
-  text-decoration: none;
-  justify-content: space-between;
-      
-}
-
-.help2 ul{
-  display: inline-block;  
-  cursor: pointer;
-  margin: 10px;
-  text-decoration: none;
-  justify-content: space-between;
-      
-}
-.container-footer{
-  display: flex;
-  justify-content: space-between;
-  padding-top: 16px;
-
-}
-
-.subscribe form{
-  background-color: #dea53a;
-  border: none;
-  border-radius: 8px;
-  color: black;
-margin-bottom: 16px;   
-padding: 8px;
-}
-
+/*Cards */
 /*Velos */
 .velos {
   display: flex;
+  justify-content: space-between;
   text-align: center;
  }
 
@@ -126,16 +21,17 @@ margin: 4px;
  }
 
  .cards button{
-  background-color: #526e3cab;
-    border-radius: 25px;
+  background-color: #ebd370c0;
+  color: black;
+    border-radius: 8px;
     border: none;
     margin: 24px;
-    color: white;
     font-family: 'Manrope', sans-serif;
     align-items: center;
     margin-left: 0px;
     transition: all 0.5s;
     cursor: pointer;
+    padding: 8px;
   
  }
 
@@ -161,3 +57,4 @@ margin: 4px;
     color: black;
     background-color: transparent;
 }
+  
