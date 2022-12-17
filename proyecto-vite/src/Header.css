@@ -18,6 +18,7 @@ header {
   
   button {
     height: 30px;
+    cursor: pointer;
   }
   
   .navbar-nav a { 
@@ -34,12 +35,33 @@ header {
     cursor: pointer;
     margin: 10px;
     }
+
+.panier{
+
+  margin-right: 24px;
+
+}
+.contador{
+  position: absolute;
+  top: 2px;
+  color:#632A1F;
+  font-weight: bold;
+  font-size: large;
   
-    
+}
+/* photo accueil */
+    .accueil {
+      background-image: url(../src/assets/canyontop.jpeg);
+      height: 540px;
+      background-size: cover;
+      background-position: center center;
+      margin: 0;   
+  }
+
     ul {
         margin: 0px;
     }
-  
+
     .container-menus {
         background-color: white;
         border-top: solid 1px black;
@@ -66,3 +88,31 @@ header {
         justify-content: space-between;
   
     }
+
+    .discover {
+      background-color: #c08a38ab;
+      border-radius: 25px;
+      border: none;
+      outline: 0;
+      margin-left: 24px;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      align-items: center;
+      margin-left: 10px;
+      transition: all 0.5s;
+      cursor: pointer;
+  }
+.discover:hover 
+{
+  background-color: rgba(255, 77, 0, 0.591);
+  
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  margin-left: 10px;
+
+}

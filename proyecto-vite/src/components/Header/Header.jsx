@@ -3,7 +3,11 @@ export function Header({logo}) {
       <header className="container header-inner">
         <img src={logo}/>
         <input className="search" placeholder="search your bike here" />
+        <div  class="panier"> 
+          <h4  className="contador" id="contador">0</h4>
+        
         <button>Basket</button>
+        </div>
       </header>
     );
   }

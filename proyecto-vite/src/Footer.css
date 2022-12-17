@@ -3,18 +3,23 @@
     justify-content: space-between;
 }
 
-.container-footer {
-    display: flex;
-}
 
 .help1 {
     display: flex;
     justify-content: space-between;
+    margin-top: 80px;
 }
 
 .follow {
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
     align-items: center;  
+}
+
+form {
+    background-color: rgba(202, 183, 158, 0.763);
+    display: inline-block;
+    padding: 12px;
+    align-items: column;
+    border-radius: 8px;
 }
 
