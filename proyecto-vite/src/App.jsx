@@ -1,6 +1,8 @@
 import './App.css'
 import './Footer.css'
 import './Header.css'
+import Layout from './components/Layout/Layout'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import { Footer } from './components/Footer/Footer'
 import { Header} from './components/Header/Header'
 import { NavBar } from './components/Header/Navbar'
@@ -34,6 +36,17 @@ const products =[
 ]
 function App() {
   return (
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Layout />}/>
+      <Route index element = {<Home />}/>
+      <Route path="login" element = {<Login />}/>
+      <Route path="cart" element = {<Cart />}/>
+      <Route path="about" element = {<About />}/>
+  </Route>
+      
+    </Routes>
+    </BrowserRouter>
     <div className="App">
     <div className="header">
       <Header 
