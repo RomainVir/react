@@ -1,9 +1,8 @@
-
+import "./App.css";
 import Layout from "./components/Layout/Layout";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { Home } from "./views/Home/Home";
-
 
 function App() {
   return (
