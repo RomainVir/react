@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom'
-  export function NavBar({menuItems, index}) {
+
+  export default function NavBar({menuItems, index}) {
     return (
         <nav className="menu">
             <div className="div">
@@ -7,7 +8,7 @@ import {Link} from 'react-router-dom'
            <ul className="navbar-nav">
            {menuItems.map((menuItem, index) => (
               <li className="nav-item" key={index} >
-                <Link className="link" href="#" 
+                <Link className="link"  
                 to={menuItem.path}
                 >
                 {menuItem.label}

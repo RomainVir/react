@@ -1,8 +1,8 @@
-import "./App.css";
+import "../src/App.css";
 import Layout from "./components/Layout/Layout";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import { Home } from "./views/Home/Home";
+import LogIn from "./components/Login/Login";
 
 function App() {
   return (
@@ -10,9 +10,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="login" element={<Login />} />
-          <Route path="cart" element={<Cart />} />
-          <Route path="about" element={<About />} />
+          <Route path="login" element={<LogIn />} />
+          {/*} <Route path="cart" element={<Cart />} />
+  <Route path="about" element={<About />} />*/}
         </Route>
       </Routes>
     </BrowserRouter>
