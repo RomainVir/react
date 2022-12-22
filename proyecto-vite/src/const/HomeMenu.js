@@ -1,7 +1,7 @@
 export const HomeMenu = [
   {
     label: "Home",
-    path: "/home",
+    path: "/",
   },
   {
     label: "All products",
