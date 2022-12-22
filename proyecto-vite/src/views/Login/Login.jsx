@@ -1,5 +1,5 @@
 import "../Login/Login.css";
-import logo from "../../assets/google.png"
+import logogoogle from "../../assets/google.png";
 export default function LogIn() {
   return (
     <div className="containerconnexion">
@@ -8,7 +8,7 @@ export default function LogIn() {
           <h1>Register</h1>
 
           <button className="google " type="button">
-            <img src={logo} width="40px" alt="ggle" />
+            <img src={logogoogle} width="40px" alt="ggle" />
           </button>
 
           <div className="input-grp">
@@ -30,7 +30,34 @@ export default function LogIn() {
               <div className="input-grp">
                 <input type="password" placeholder="Password" id="Password" />
               </div>
+              <button className="enter " type="button">
+                Register
+              </button>
             </div>
+          </div>
+        </div>
+        <div class="login">
+          <h1>Log in</h1>
+
+          <button className="google " type="button">
+            <img src={logogoogle} width="40px" alt="ggle" />
+          </button>
+          <div class="input-grp">
+            <label for="Email"></label>
+            <input type="email" placeholder="Email" id="email" />
+
+            <div class="input-grp">
+              <label for="Password"></label>
+              <div class="input-grp">
+                <input type="password" id="password" placeholder="Password" />
+              </div>
+            </div>
+          </div>
+
+          <div class="enter">
+          <button className="enter" type="button">
+                Enter
+              </button>
           </div>
         </div>
       </div>

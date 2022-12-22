@@ -1,27 +1,27 @@
 export const HomeMenu = [
   {
     label: "Home",
-    path: "/",
+    path: "/home",
   },
   {
     label: "All products",
-    path: "/",
-  },
-  {
-    label: "Discounts",
-    path: "/",
+    path: "/allproducts",
   },
   {
     label: "About us",
-    path: "/",
+    path: "/about",
   },
   {
     label: "Contact",
-    path: "/",
+    path: "/contact",
   },
   {
     label: "Login",
     path: "/login",
+  },
+  {
+    label: "Cart",
+    path: "/cart",
   },
 ];
 

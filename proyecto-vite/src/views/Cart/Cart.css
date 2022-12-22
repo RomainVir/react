@@ -1,0 +1,74 @@
+
+.product1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.image {
+    
+    border-radius: 8px;
+    margin: 16px;
+
+}
+.price, .qty
+{
+    padding-left: 32px;
+}
+.borrar {
+    padding-right: 16px;
+}
+.pedido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+    
+.tarjeta {
+    margin-top: 32px;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px -12px;
+        background-color: #F3E4CD;
+    
+}
+button.paymenttype{
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    margin-left: 64px;
+    margin-bottom: 20px;
+}
+input {
+    margin: 20px;
+    width: 80%;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px -12px;
+    padding: 16px;
+    border: none;
+}
+
+.pagar h1 {
+    margin: 40px;
+}
+.add 
+{
+ width: 80%;
+ margin-bottom: 10px;
+ background-color: white;
+ border: none;
+ border-radius: 8px;
+ padding: 16px;
+ margin-top: 48px;
+ cursor: pointer;
+ font-family: 'Manrope', sans-serif;
+ font-size: larger;
+ transition: all 0.5s;
+ margin-left: 48px;
+}
+.add:hover {
+    background-color: rgba(255, 77, 0, 0.591);
+color: white;
+}
