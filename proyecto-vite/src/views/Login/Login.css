@@ -19,7 +19,7 @@ input
     }
   
    .register h1, .login h1 {
-    color: rgb(13, 12, 12);
+    color: rgb(255, 255, 255);
     text-align: center;
 
    }
@@ -33,9 +33,10 @@ input
       
     }
 
-    .login
+    .login, .register
     {
         margin-top: 32px;
+        margin-bottom: 132px;
         border-radius: 8px;
         box-shadow: 0 8px 16px -12px;
         background-color: #468b71e2;
@@ -68,31 +69,32 @@ input
     
    }
 
-.google 
-{
-    width: 95%;
-    margin-bottom: 24px;
-    background-color: white;
-    border: none;
-    border-radius: 8px;
-    padding: 16px;
-    cursor: pointer;
-}
+  button.enter {
 
-   .enter button 
-   {
     width: 100%;
     margin-bottom: 10px;
     background-color: white;
     border: none;
     border-radius: 8px;
-    padding: 16px;
     margin-top: 48px;
     cursor: pointer;
     font-family: 'Manrope', sans-serif;
     font-size: larger;
     transition: all 0.5s;
-   }
+}
+
+   .enter button {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 48px;
+    cursor: pointer;
+    font-family: 'Manrope', sans-serif;
+    font-size: larger;
+    transition: all 0.5s;
+}
    .enter button:hover {
     background-color: rgba(255, 77, 0, 0.591);
 color: white;

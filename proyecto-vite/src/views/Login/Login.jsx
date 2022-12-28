@@ -1,5 +1,5 @@
 import "../Login/Login.css";
-import logogoogle from "../../assets/google.png";
+
 export default function LogIn() {
   return (
     <div className="containerconnexion">
@@ -7,9 +7,7 @@ export default function LogIn() {
         <div className="register">
           <h1>Register</h1>
 
-          <button className="google " type="button">
-            <img src={logogoogle} width="40px" alt="ggle" />
-          </button>
+          
 
           <div className="input-grp">
             <label for="Email"></label>
@@ -39,9 +37,7 @@ export default function LogIn() {
         <div class="login">
           <h1>Log in</h1>
 
-          <button className="google " type="button">
-            <img src={logogoogle} width="40px" alt="ggle" />
-          </button>
+          
           <div class="input-grp">
             <label for="Email"></label>
             <input type="email" placeholder="Email" id="email" />
