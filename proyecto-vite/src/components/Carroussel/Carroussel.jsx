@@ -1,4 +1,4 @@
-export default function Carroussel() {
+export default function Accueil() {
     return (
 
         <div className="accueil">

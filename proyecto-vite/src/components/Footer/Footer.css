@@ -8,18 +8,22 @@
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
+    background-color: #18a42975;
+}
+
+.subscribe {
+  display: inline-block;
+  background-color: #e7ae59ab;
+  margin: 12px;
+  padding: 18px;
+
+  border-radius: 10px;
 }
 
 .follow {
-    display: inline-block;
-    align-items: center;  
-}
-
-form {
-    background-color: rgba(202, 183, 158, 0.763);
-    display: inline-block;
-    padding: 12px;
-    align-items: column;
-    border-radius: 8px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 

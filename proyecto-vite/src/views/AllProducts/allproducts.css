@@ -1,0 +1,42 @@
+
+.cards {
+        
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0px;
+    transition: all 0.5s;
+    cursor: pointer;
+    padding: 8px;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    display: inline-block
+  }
+  
+   .cards button{
+    background-color: #ebd370c0;
+    color: black;
+      border-radius: 8px;
+      border: none;
+      margin: 24px;
+      font-family: 'Manrope', sans-serif;
+      align-items: center;
+      margin-left: 0px;
+      transition: all 0.5s;
+      cursor: pointer;
+      padding: 8px;
+
+   }
+
+   .cards button:hover {
+    background-color: rgba(255, 77, 0, 0.591);
+    }
+    
+    .boutons {
+        display: flex;
+        justify-content: right;
+    }
+  
+  .cards:hover {
+      color: black;
+      background-color: transparent;
+  }
+    

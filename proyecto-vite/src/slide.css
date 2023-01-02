@@ -1,0 +1,13 @@
+.containerSlide{
+    width: 650px;
+    margin: auto;
+    padding-top: 200px;
+}
+
+.containerSlide img {
+    height: 350px;
+}
+
+.images-wrap {
+    display: flex;
+}

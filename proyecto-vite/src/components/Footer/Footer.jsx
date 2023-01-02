@@ -1,4 +1,5 @@
 import "../Footer/Footer.css";
+import logo from "../../assets/logo.png";
 export default function Footer() {
   return (
     <div classNameName="footer">
@@ -23,39 +24,32 @@ export default function Footer() {
         </div>
       </div>
 
-      <div classNameName="container-footer">
-        <div className="help1">
-          <div>
-            <h5>Help center</h5>
-          </div>
-          <div>
-            <h5>Customer service</h5>
-          </div>
-          <div>
-            <h5>Contact us</h5>
-          </div>
-          <div>
-            <h5>Call center</h5>
-          </div>
+      <div className="help1">
+        <div>
+          <h5>Help center</h5>
+        </div>
+        <div>
+          <h5>Customer service</h5>
+        </div>
+        <div>
+          <h5>Contact us</h5>
+        </div>
+        <div>
+          <h5>Call center</h5>
         </div>
 
         <div class="subscribe">
           <form>
             <h4>Suscribe to our newsletter and receive daily offers!</h4>
-            <label for="email">Email</label>
             <input
               type="email"
               name="email"
               id="email"
               placeholder="Write your email"
             />
-
-            <label for="button">I accept the terms and conditions</label>
-
-            <input type="radio" value="OK" />
-            <input class="sub-bouton" type="button" value="Subscribe" />
           </form>
         </div>
+
         <div class="follow">
           <a class="facebook" href="https://www.facebook.com" target="_blank">
             <img src="../src/assets/facebook.png" alt="facebook" width="50" />

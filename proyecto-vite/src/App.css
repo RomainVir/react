@@ -1,24 +1,28 @@
 /*body */
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: black;
   background-color: white; 
   
 }
 
 /*Cards */
 /*Velos */
-.velos {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  margin-top: 60px
- }
 
- .velos img{
-width: 400px;
-padding: 10px;
- }
+.title{
+  color: white;
+}
+.cards {
+        
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0px;
+  transition: all 0.5s;
+  cursor: pointer;
+  padding: 8px;
+  margin-bottom: 100px;
+  margin-top: 40px;
+  display: inline-block
+}
+
 
  .cards button{
   background-color: #ebd370c0;
@@ -44,15 +48,7 @@ padding: 10px;
       justify-content: right;
   }
 
-  .cards {
-        
-    border-radius: 8px;
-    box-shadow: 0 8px 16px 0px;
-    transition: all 0.5s;
-    cursor: pointer;
-    padding: 8px;
-    margin-bottom: 100px;
-}
+  
 .cards:hover {
     color: black;
     background-color: transparent;
