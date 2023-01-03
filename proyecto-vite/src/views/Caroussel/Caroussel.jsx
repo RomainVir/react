@@ -1,9 +1,9 @@
 import React from "react";
 import { Slide } from "react-slideshow-image";
-import img1 from "./assets/canyon2.jpeg";
-import img2 from "./assets/canyon3.jpeg";
-import img3 from "./assets/canyontop.jpeg";
-import "./slide.css";
+import img1 from "../../assets/canyon2.jpeg";
+import img2 from "../../assets/canyon2.jpeg";
+import img3 from "../../assets/canyon2.jpeg";
+import "./caroussel.css";
 
 const proprietes = {
   duration: 2000,
@@ -12,7 +12,7 @@ const proprietes = {
   indicators: true,
   arrows: true,
 };
-const SlideShow = () => {
+export default function Caroussel() {
   return (
     <div className="containerSlide">
       <Slide {...proprietes}>
@@ -34,6 +34,4 @@ const SlideShow = () => {
       </Slide>
     </div>
   );
-};
-
-export default SlideShow;
+}

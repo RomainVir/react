@@ -1,15 +1,11 @@
-import Carroussel from "../../components/Carroussel/Carroussel";
 import { Fragment } from "react";
 import velo from "../../assets/canyon2.jpeg";
-import SlideShow from "../../Slide";
+import Caroussel from "../Caroussel/Caroussel";
 export function Home({ img, title, price, buy, details }) {
   return (
     <>
       <div>
-        <SlideShow />
-      </div>
-      <div>
-        <Carroussel />
+        <Caroussel />
       </div>
       <div className="cards">
         <img src={velo} alt="velo" />
