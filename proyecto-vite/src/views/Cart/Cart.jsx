@@ -42,6 +42,9 @@ export default function Cart() {
           <img src={bin} width="24px" alt="bin" />
         </div>
       </div>
+      <div className="pay">
+        <button>Go to payment</button>
+      </div>
     </div>
   );
 }

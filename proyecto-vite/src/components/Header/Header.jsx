@@ -9,8 +9,9 @@ export default function Header() {
         <h4 className="contador" id="contador">
           0
         </h4>
-
-        <button>Basket</button>
+        <a href="http://localhost:5173/cart">
+          <button>Basket</button>
+        </a>
       </div>
     </header>
   );

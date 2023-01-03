@@ -2,15 +2,12 @@
     display: flex;
     justify-content: space-between;
 }
-
-
 .help1 {
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
-    background-color: #72ee81a3;
+    background-color: #468b71e2;
 }
-
 .subscribe {
   display: inline-block;
   background-color: #edaf4a99;
