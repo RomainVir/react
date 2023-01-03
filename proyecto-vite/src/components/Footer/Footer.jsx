@@ -47,6 +47,7 @@ export default function Footer() {
               id="email"
               placeholder="Write your email"
             />
+            <button type="radio">Subscribe</button>
           </form>
         </div>
 

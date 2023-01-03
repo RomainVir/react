@@ -1,8 +1,8 @@
 import React from "react";
 import { Slide } from "react-slideshow-image";
 import img1 from "../../assets/canyon2.jpeg";
-import img2 from "../../assets/canyon2.jpeg";
-import img3 from "../../assets/canyon2.jpeg";
+import img2 from "../../assets/canyon3.jpeg";
+import img3 from "../../assets/canyon1.jpeg";
 import "./caroussel.css";
 
 const proprietes = {
