@@ -14,6 +14,7 @@ header {
     justify-content: center;
     align-items: center;
     border: solid 1px black;
+    margin-top: 45px;
   }
   
   button {
@@ -41,13 +42,13 @@ header {
   margin-right: 24px;
 
 }
-.contador{
+.contador {
   position: absolute;
-  top: 2px;
-  color:#632A1F;
+  top: -26px;
+  right: 20px;
+  color: #632A1F;
   font-weight: bold;
   font-size: large;
-  
 }
 /* photo accueil */
     .accueil {

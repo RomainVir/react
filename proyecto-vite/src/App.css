@@ -1,7 +1,7 @@
 /*body */
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: white; 
+  background-color:#FEFBF4; 
   
 }
 
@@ -22,8 +22,6 @@ body {
   margin-top: 40px;
   display: inline-block
 }
-
-
  .cards button{
   background-color: #ebd370c0;
   color: black;

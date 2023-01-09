@@ -5,3 +5,7 @@ h1 {
 .register{
     display: inline-block;
 }
+textarea {
+    margin-left: 20px;
+    margin-top: 20px;
+}
