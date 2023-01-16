@@ -2,8 +2,28 @@ import List from "../../componentes/List/List";
 import { useState, useEffect } from "react";
 
 export default function Todos() {
-  const [todos, setTodos] = useState(null);
+  const [todos, setTodos] = useState([]);
+  const [newTodo, setNewTodo] = useState("");
 
+  function addToDo(e) {
+    setNewTodo(e.target.value);
+  }
+
+  function addToDoInList(e) {
+    e.preventDefault();
+    const newTask = {
+      id: todos.length + 1,
+      title: newTodo,
+      completed: false,
+      userId: 1,
+    };
+
+    /*if (newTodo === "") {
+      return;*/
+
+    setTodos([...todos, newTask]);
+    setNewTodo("");
+  }
   useEffect(function () {
     async function fetchTodos() {
       const response = await fetch(
@@ -21,12 +41,11 @@ export default function Todos() {
       <h1>Todos views</h1>
       <br />
       <br />
-      <input
-        type="text
-      "
-      />
-      <button>Add to list</button>
-      <br /><br />
+      <form onSubmit={addToDoInList}></form>
+      <input value={newTodo} onChange={addToDo} />
+      <button onClick={addToDo}> Add to list</button>
+      <br />
+      <br />
       <List items={todos} setState={setTodos} />
     </>
   );

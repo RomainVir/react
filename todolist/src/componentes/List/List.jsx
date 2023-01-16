@@ -6,6 +6,11 @@ export default function List({ items, setState }) {
     setState(items.filter((item) => item.id !== id));
   }
 
+
+  function addToDo (e){
+    e.preventDefault();
+    set
+  }
   function toogleState(index) {
     const newItems = [...items];
     newItems[index].completed = !newItems[index].completed;
