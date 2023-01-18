@@ -86,6 +86,7 @@ export default function Connexion() {
             <label for="Email"></label>
             <input
               type="text"
+              required
               placeholder="Name"
               name="name"
               value={newUser.name}
@@ -95,6 +96,7 @@ export default function Connexion() {
               <label for="Email"></label>
               <input
                 type="text"
+                required
                 name="surname"
                 placeholder="Surname"
                 value={newUser.surname}
@@ -106,6 +108,7 @@ export default function Connexion() {
                 <input
                   type="email"
                   name="email"
+                  required
                   placeholder="Email"
                   value={newUser.email}
                   onChange={handleInputRegister}
@@ -116,6 +119,7 @@ export default function Connexion() {
                 <input
                   name="password"
                   type="password"
+                  required
                   placeholder="Password"
                   value={newUser.password}
                   onChange={handleInputRegister}
@@ -137,6 +141,7 @@ export default function Connexion() {
               <input
                 type="email"
                 name="email"
+                required
                 value={User.email}
                 onChange={handleLogin}
               />
@@ -147,6 +152,7 @@ export default function Connexion() {
                   <input
                     type="password"
                     name="password"
+                    required
                     value={User.password}
                     onChange={handleLogin}
                   />
