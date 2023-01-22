@@ -1,0 +1,23 @@
+import { useState } from "react";
+
+export default function Form(setState, onSubmit) {
+  const [newTodo, setNewTodo] = useState("");
+
+  function handleInput(e) {
+    setNewTodo(e.target.value);
+  }
+  return (
+    <form
+      onSubmit={(e) => onSubmit(e, newTodo)}
+      className="form-group container"
+    >
+      <input
+        type="text"
+        className="form-control mb-3"
+        placeholder="Add a new task"
+        value={newTodo}
+        onChange={handleInput}
+      />
+    </form>
+  );
+}
