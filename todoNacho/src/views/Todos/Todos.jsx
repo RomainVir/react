@@ -5,18 +5,18 @@ import { v4 as uuid } from "uuid";
 import List from "../../componentes/List/List";
 
 export default function Todos() {
-  const [todos, setTodos] = useState(null);
+  const [todos, setTodos] = useState([]);
 
-  useEffect(function () {
+  /*useEffect(function () {
     async function fetchTodos() {
       const response = await fetch(
         "https://jsonplaceholder.typicode.com/todos"
       );
       const data = await response.json();
-      setTodos(data.slice(0, 20));
+      setTodos(data.slice(0, 20)); 
     }
     fetchTodos();
-  }, []);
+  }, []);*/
 
   function onSubmit(e, titleTodo) {
     e.preventDefault();
@@ -31,7 +31,9 @@ export default function Todos() {
 
   return (
     <>
-      <h1>Todos view</h1>
+      <h1>To Do List</h1>
+      <br />
+      <br />
       <Form setState={setTodos} onSubmit={onSubmit} />
       <List items={todos} setState={setTodos} />
     </>

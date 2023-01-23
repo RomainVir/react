@@ -1,8 +1,9 @@
 import { useState } from "react";
 
-export default function Form(setState, onSubmit) {
+export default function Form({ onSubmit }) {
   const [newTodo, setNewTodo] = useState("");
 
+  console.log(onSubmit);
   function handleInput(e) {
     setNewTodo(e.target.value);
   }
