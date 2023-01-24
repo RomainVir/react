@@ -12,8 +12,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           {/* Routes publiques*/}
-          <Route path="/" element={<PublicRoute />}>
-            <Route index element={<Home />} />
+          <Route path="/" element={<Home />}>
+            <Route index element={<PublicRoute />} />
             <Route path="/login" element={<Login />} />
           </Route>
           {/* Routes privés*/}
@@ -23,7 +23,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </AuthContextProvider>
-  ); 
+  );
 }
 
 export default App;
